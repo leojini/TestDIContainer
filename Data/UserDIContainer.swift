@@ -18,6 +18,7 @@ struct UserDIContainerModifer: ViewModifier {
     func body(content: Content) -> some View {
         content
             .environmentObject(ViewModel(userService: userService))
+        
     }
 }
 
